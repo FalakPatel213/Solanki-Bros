@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    height: 21vh;
+    width: 100%;
+    background-color: #00645D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar h1{
+    font-size: 39px;
+    font-weight: 500;
+    margin-left: 2vw;
+    margin-top: -2vh;
+    line-height: 7vh;
+}
+
+.links{
+    margin-left: 10vw;
+}
+.home, .contect, .serve, .news{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-left: 1.8vw;
+}
+
+.logos{
+    margin-left: 8vw;
+    display: flex;
+    margin-right: 4vw;
+}
+
+.facebook, .instagram, .linkedIn, .mail{
+    font-size: 35px;
+    margin-left: 4vw;
+    border-radius: 50px;
+}
+
+.facebook:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+.instagram:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+.linkedIn:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+.mail:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+
+.upper{
+    background-color: #D5EFF4;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.subscribe{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 10vh;
+}
+.mail2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: 1px solid rgb(46, 46, 46);
+    width: 5vw;
+    height: 8vh;
+    border-radius: 10px;
+    margin-left: 12vw;
+}
+.mail2:hover{
+    background-color:rgba(46, 46, 46, 0.849);
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.solankiPic{
+    background-image: url("/logoPng.png");
+    height: 100%;
+    width: 30vw;
+    background-size: contain;
+}
+
+.middle{
+    height: 120vh;
+    display: flex;
+}
+
+.aboutUs{
+    font-size: 37px;
+    font-weight: 610;
+    color: rgb(46, 46, 46);
+    margin-left: 26vw;
+    margin-top: 5vh;
+}
+
+.who{
+    color: rgb(46, 46, 46);
+    font-size: 27px;
+    font-weight: 500;
+    margin-top: 12vh;
+    margin-left: 26vw;
+}
+
+.leftDisc{
+    display: flex;
+}
+
+.left{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 5vw;
+}
+
+.discription{
+    width: 40vw;
+    text-align:justify;
+    font-size: 19px;
+    color:rgb(46, 46, 46);
+    margin-top: 7.5vh;
+    margin-left: 5vw;
+    position: relative;
+}
+
+.right{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 5vw;
+}
+
+.rightDisc{
+    margin-top: 55vh;
+    margin-left: 10vw;
+    line-height: 7vh;
+}
+
+.whatIncludes{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.checkIt{
+    font-size: 20px;
+    height: 7vh;
+    width: 11vw;
+    background-color:rgb(46, 46, 46);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 5vw;
+}
+.checkIt:hover{
+    background-color: rgba(46, 46, 46, 0.849);
+    transition-duration: 0.3s;
+}
+
+.footer-upper{
+    height: 40vh;
+    background-color: #B8E3E0;
+    display: flex;
+}
+.left-side{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.financialNews{
+    height: 10vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(46, 46, 46);
+    font-size: 35px;
+    font-weight: 450;
+    margin-top: 3vh;
+    margin-left: 9vw;
+}
+.financialService{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(46, 46, 46);
+    font-size: 25px;
+    font-weight: 640;
+    margin-left: -5.5vw;
+    /* margin-top: 0.5vh; */
+}
+.knowMore{
+    height: 9vh;
+    width: 10vw;
+    font-size: 22px;
+    color: white;
+    background-color: #00634c;
+    border: none;
+    margin-left: 12.5vw;
+    margin-top: 1vh;
+}
+
+.knowMore:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.7s;
+}
+
+.right-side{
+    height: 100%;
+    font-size: 30px;
+    color:rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7vw;
+}
+
+.footer-lower{
+    height: 120vh;
+    background-image: url(/ConnectUsPage.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.left-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    color: #F5DEB3;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 25vh;
+    margin-left: 20vw;
+}
+.hire{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    height: 7vh;
+    width: 8vw;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 20vw;
+    margin-top: 20vh;
+}
+.hire:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.logo2{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin-left: 20vw;
+    margin-top: 20vh;
+}
+.linked{
+    margin-left: 4vw;;
+}
+.insta{
+    margin-left: 4vw;
+}
+.mail3{
+    margin-left: 4vw;
+}
+
+.face:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+.insta:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+.linked:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+.mail3:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+
+.right-contact{
+    margin-left: 15vw;
+}
+.solanki{
+    font-size: 45px;
+    font-weight: 600;
+    color: #F5DEB3;
+    width: 10vw;
+    margin-top: 25vh;
+}
+.ourServices, .newsLetters, .councilling{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: 13vh;
+    margin-left: 2.5vw;
+}
+.councilling{
+    width: 25vw;
+}
+
+.ourServices:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+.newsLetters:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
+.councilling:hover{
+    color: rgb(3, 217, 255);
+    transition-duration: 0.3s;
+}
