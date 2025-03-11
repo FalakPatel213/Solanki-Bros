@@ -96,7 +96,7 @@
 }
 
 .solankiPic{
-    background-image: url("/logoPng.png");
+    background-image: url("/Solanki Bros/logoPng.png");
     height: 100%;
     width: 30vw;
     background-size: contain;
@@ -241,7 +241,7 @@
 
 .footer-lower{
     height: 120vh;
-    background-image: url(/ConnectUsPage.jpg);
+    background-image: url("/Solanki Bros/ConnectUsPage.jpg");
     background-size: cover;
     display: flex;
 }
